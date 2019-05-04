@@ -9,5 +9,10 @@ Options:
   -i, --in [json|yaml|toml]   Format of data written to STDOUT
   -o, --out [json|yaml|toml]  Format of data read from STDIN
   --help                      Show this message and exit.
-
 ```
+
+## Usage Samples
+```
+$ dataformat -o yaml < mydata.json > mydata.yaml
+$ dataformat -i yaml -o toml < mydata.yaml > mydata.toml
+ ```
