@@ -1,9 +1,10 @@
+import json
 import toml
-from . import json
+from . import prettyjson
 from . import yaml
 
 
-CHOICES = ('json', 'yaml', 'toml')
+CHOICES = ('json', 'prettyjson', 'yaml', 'toml')
 
 
 def get(deserializer_name, serializer_name):
