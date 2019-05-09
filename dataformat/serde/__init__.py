@@ -1,5 +1,5 @@
-import json
 import toml
+from . import json
 from . import yaml
 
 
